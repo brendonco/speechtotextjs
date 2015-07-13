@@ -1,3 +1,9 @@
-node_modules
-dist
-*.log
+# exclude everything except directory
+/*
+!/app
+!/test
+/app/*
+/test/*
+*.js
+*.json
+*.md
